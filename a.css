@@ -1,0 +1,39 @@
+
+header,body,main,.hero-section{
+    background: -webkit-linear-gradient(150deg,#1abc9c,#2ecc71,#3498db,#1abc9c,#d35400,#2c3e50);
+    background: -o-linear-gradient(150deg,#1abc9c,#2ecc71,#3498db,#1abc9c,#d35400,#2c3e50);
+    background: -moz-linear-gradient(150deg,#1abc9c,#2ecc71,#3498db,#1abc9c,#d35400,#2c3e50);
+    background: linear-gradient(150deg,#1abc9c,#2ecc71,#3498db,#1abc9c,#d35400,#2c3e50);
+    background-size: 400% 400%;
+    -webkit-animation: raed 5s infinite ease-in-out;
+    -o-animation: raed 5s infinite ease-in-out;
+    -moz-animation: raed 5s infinite ease-in-out;
+   animation: raed 5s infinite ease-in-out;
+    
+    
+}
+
+
+
+@-webkit-keyframes raed{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+@-o-keyframes raed{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
+
+@-moz-keyframes raed{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+    
+}@keyframes raed{
+    0%{background-position: 0% 50%}
+    50%{background-position: 100% 50%}
+    100%{background-position: 0% 50%}
+}
